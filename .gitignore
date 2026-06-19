@@ -30,3 +30,12 @@
 *.exe
 *.out
 *.app
+
+.vs/
+[Bb]in/
+[Oo]bj/
+[Dd]ebug/
+[Rr]elease/
+[Aa][Rr][Mm]64/
+x64/
+*.user
