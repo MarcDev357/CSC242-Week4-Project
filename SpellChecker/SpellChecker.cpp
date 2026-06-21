@@ -1,14 +1,23 @@
 /*
  * ============================================================
- *  [ PLACEHOLDER HEADER — swap in the Learning Resources
- *    comment-header template once you send it to me ]
+ * Program Name : SpellChecker.cpp
+ * Course       : CSC 242
+ * Assignment   : Signature Assignment (Group Project)
+ * Team Members : Marcus Wiggs, David Cruz, Cassius Miller
+ * Date         : June 2026
  *
- *  Program: SpellChecker (P8.2)
- *  Author:  Marcus Wiggs
- *  Team:    Marcus Wiggs, David Cruz, Cassius Miller
- *  Course:  CSC242 — Assignment 5
- *  Purpose: Reads each word of a file and prints any word not
- *           found in the dictionary word list.
+ * Description  :
+ *   Spell Checker — P8.2
+ *   Reads each word of a target file and prints any word that
+ *   is not found in the system dictionary word list
+ *   (/usr/share/dict/words, provided locally as words.txt).
+ *
+ * Usage        :
+ *   Run the program, then enter the name of the file to check
+ *   when prompted (e.g., test.txt).
+ *
+ * Work split   :
+ *   Marcus Wiggs — normalize, loadDictionary, checkFile, main
  * ============================================================
  */
 
