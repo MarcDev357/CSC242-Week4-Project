@@ -11,6 +11,10 @@
  *   Encrypts or decrypts a file using a keyword-derived cipher
  *   alphabet. The keyword letters (de-duplicated) are placed
  *   first; the remaining letters follow in reverse order (Z..A).
+ *   This file contains argument parsing, file processing, and
+ *   the program entry point. It works together with david.cpp,
+ *   which implements the cipher-alphabet and character-mapping
+ *   functions.
  *
  * Usage        :
  *   crypt -kKEYWORD input.txt output.txt        (encrypt)
@@ -20,11 +24,8 @@
  *     crypt -kFEATHER plain.txt encrypted.txt
  *     crypt -d -kFEATHER encrypted.txt recovered.txt
  *
- * Compilation  :
- *   g++ -std=c++17 -o crypt crypt.cpp
- *
  * Work split   :
- *   David Cruz   — buildCipherAlphabet, transformChar
+ *   David Cruz     — buildCipherAlphabet, transformChar
  *   Cassius Miller — parseArguments, processFile, main
  * ============================================================
  */

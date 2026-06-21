@@ -1,3 +1,24 @@
+/*
+ * ============================================================
+ * Program Name : david.cpp
+ * Course       : CSC 242
+ * Assignment   : Signature Assignment (Group Project)
+ * Team Members : Marcus Wiggs, David Cruz, Cassius Miller
+ * Date         : June 2026
+ *
+ * Description  :
+ *   Monoalphabet substitution cipher — P8.7
+ *   Implementation file for David Cruz's functions. Builds the
+ *   keyword-derived cipher alphabet and maps individual
+ *   characters for encryption and decryption. Compiles together
+ *   with crypt.cpp, which provides argument parsing, file
+ *   processing, and the program entry point.
+ *
+ * Work split   :
+ *   David Cruz — buildCipherAlphabet, transformChar
+ * ============================================================
+ */
+
 // Implementations for David Cruz's functions
 #include <string>
 #include <cctype>
